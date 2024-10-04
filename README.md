@@ -34,3 +34,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Dependencies
+
+```bash
+npm install axios
+
+# https://echarts.apache.org/en/index.html
+# https://echarts.apache.org/handbook/en/basics/import
+npm install echarts
+
+# download da geoLocalização dos municípios de SC (pesado)
+https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_de_setores_censitarios__divisoes_intramunicipais/censo_2022_preliminar/distritos/json/UF/SC/SC_Malha_Preliminar_Distrito_2022.zip
+
+# download da geoLocalização dos estados do Brasil (pesado)
+https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_de_setores_censitarios__divisoes_intramunicipais/censo_2022_preliminar/distritos/json/BR/BR_Malha_Preliminar_Distrito_2022.zip
+```
