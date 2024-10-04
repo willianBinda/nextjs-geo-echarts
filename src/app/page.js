@@ -1,15 +1,18 @@
 import React from "react";
 import styles from "./page.module.css";
 import UsaChart from "@/components/UsaChart";
-import BRChart from "@/components/BRChart";
+import BrChart from "@/components/BrChart";
+import { getGeoData, getGeoLocation } from "@/actions/request";
 
-export default () =>{
+export default async () => {
+  const geoData = await getGeoData();
+  const geoLocation = await getGeoLocation(geoData);
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <UsaChart/>
-        <BRChart/>
+        <UsaChart />
+        <BrChart geoData={geoData} geoLocation={geoLocation} />
       </main>
     </div>
   );
-}
+};
