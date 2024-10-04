@@ -1,5 +1,22 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Dependencies
+
+```bash
+npm install axios
+
+# https://echarts.apache.org/en/index.html
+# https://echarts.apache.org/handbook/en/basics/import
+npm install echarts
+
+# download da geoLocalização dos municípios de SC (pesado)
+https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_de_setores_censitarios__divisoes_intramunicipais/censo_2022_preliminar/distritos/json/UF/SC/SC_Malha_Preliminar_Distrito_2022.zip
+
+# download da geoLocalização dos estados do Brasil (pesado)
+https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_de_setores_censitarios__divisoes_intramunicipais/censo_2022_preliminar/distritos/json/BR/BR_Malha_Preliminar_Distrito_2022.zip
+```
+
+
 ## Getting Started
 
 First, run the development server:
@@ -35,18 +52,3 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-## Dependencies
-
-```bash
-npm install axios
-
-# https://echarts.apache.org/en/index.html
-# https://echarts.apache.org/handbook/en/basics/import
-npm install echarts
-
-# download da geoLocalização dos municípios de SC (pesado)
-https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_de_setores_censitarios__divisoes_intramunicipais/censo_2022_preliminar/distritos/json/UF/SC/SC_Malha_Preliminar_Distrito_2022.zip
-
-# download da geoLocalização dos estados do Brasil (pesado)
-https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_de_setores_censitarios__divisoes_intramunicipais/censo_2022_preliminar/distritos/json/BR/BR_Malha_Preliminar_Distrito_2022.zip
-```
